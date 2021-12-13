@@ -1,4 +1,5 @@
 import './App.css';
+import ButtonExample from './components/ButtonExample.js';
 import FramerMotionExample from './components/FramerMotionExample.js';
 
 
@@ -30,8 +31,8 @@ function App() {
           <p>
             Thru defining the endpoints (also known as 'variants' within Framer, and 'keyframes' in general animation), we can build our animations. We don't need to tell Framer how to transform a property, we just need to tell it the results. In other words, if we wanted to have a button that turns from blue to green, we would define a variant where the button is blue, and another when the button is green. Here's an example:
           </p>
-          <div className='bg-red-300'>
-            COOL EXAMPLE HERE WITH CODE NEXT TO IT?
+          <div className='bg-red-900 flex flex-col items-center p-4'>
+            <ButtonExample/>
           </div>
         </div>
         <FramerMotionExample />
