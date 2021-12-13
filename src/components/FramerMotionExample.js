@@ -12,7 +12,6 @@ const FramerMotionExample = () => {
       initial="hidden"
       animate="visible"
       variants={variants}
-      className="bg-white"
     >stuff in here</motion.div>
   )
 
